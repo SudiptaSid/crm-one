@@ -1,0 +1,25 @@
+bootstrap-4.0.0
+font-awesome-4.7.0
+owl-carousel-2.2.1
+jquery.min-3.3.1
+/* --------------------------------------------------------------------------------
+										Heading
+-------------------------------------------------------------------------------- */
+
+font-family: 'Open Sans', sans-serif;
+
+D blue --- 002d3b
+L blue --- 009ae1
+
+
+https://numberplateclinic.co.uk/gallery.php
+
+
+
+index.html
+about.html
+plate-builder.html
+gallery.html
+contact.html
+q_a.html
+fitting.html

@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Crm</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
+    <meta content="Coderthemes" name="author" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <!-- Plugins css -->
+    <link href="libs/flatpickr/flatpickr.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- App css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/app.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <!-- Begin page -->
+    <div id="wrapper">
+        <!-- Topbar Start -->
+        <div class="navbar-custom">
+            <ul class="list-unstyled topnav-menu float-right mb-0">
+                <li class="d-none d-sm-block">
+                    <form class="app-search">
+                        <div class="app-search-box">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search...">
+                                <div class="input-group-append">
+                                    <button class="btn" type="submit">
+                                        <i class="fe-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </li>
+                <li class="dropdown notification-list">
+                    <a class="nav-link dropdown-toggle  waves-effect waves-light" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                        <i class="fe-bell noti-icon"></i>
+                        <span class="badge badge-danger rounded-circle noti-icon-badge">9</span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right dropdown-lg">
+                        <div class="dropdown-item noti-title">
+                            <h5 class="m-0">
+                                <span class="float-right">
+                                    <a href="#" class="text-light">
+                                        <small>Clear All</small>
+                                    </a>
+                                </span> Notification
+                            </h5>
+                        </div>
+                        <div class="slimscroll noti-scroll">
+                            <a href="javascript:void(0);" class="dropdown-item notify-item active">
+                                <div class="notify-icon">
+                                    <img src="images/users/user-1.jpg" class="img-fluid rounded-circle" alt="" /> </div>
+                                <p class="notify-details">Cristina Pride</p>
+                                <p class="text-muted mb-0 user-msg">
+                                    <small>Hi, How are you? What about our next meeting</small>
+                                </p>
+                            </a>
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <div class="notify-icon bg-primary">
+                                    <i class="mdi mdi-comment-account-outline"></i>
+                                </div>
+                                <p class="notify-details">Caleb Flakelar commented on Admin
+                                    <small class="text-muted">1 min ago</small>
+                                </p>
+                            </a>
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <div class="notify-icon">
+                                    <img src="images/users/user-4.jpg" class="img-fluid rounded-circle" alt="" /> </div>
+                                <p class="notify-details">Karen Robinson</p>
+                                <p class="text-muted mb-0 user-msg">
+                                    <small>Wow ! this admin looks good and awesome design</small>
+                                </p>
+                            </a>
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <div class="notify-icon bg-warning">
+                                    <i class="mdi mdi-account-plus"></i>
+                                </div>
+                                <p class="notify-details">New user registered.
+                                    <small class="text-muted">5 hours ago</small>
+                                </p>
+                            </a>
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <div class="notify-icon bg-info">
+                                    <i class="mdi mdi-comment-account-outline"></i>
+                                </div>
+                                <p class="notify-details">Caleb Flakelar commented on Admin
+                                    <small class="text-muted">4 days ago</small>
+                                </p>
+                            </a>
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <div class="notify-icon bg-secondary">
+                                    <i class="mdi mdi-heart"></i>
+                                </div>
+                                <p class="notify-details">Carlos Crouch liked
+                                    <b>Admin</b>
+                                    <small class="text-muted">13 days ago</small>
+                                </p>
+                            </a>
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <a href="javascript:void(0);" class="dropdown-item text-center text-light notify-item notify-all">
+                            View all
+                            <i class="fi-arrow-right"></i>
+                        </a>
+                    </div>
+                </li>
+
+                <li class="dropdown notification-list">
+                    <a class="nav-link dropdown-toggle nav-user mr-0 waves-effect waves-light" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                        <img src="images/users/user-1.jpg" alt="user-image" class="rounded-circle">
+                        <span class="pro-user-name ml-1">
+                                Geneva <i class="mdi mdi-chevron-down"></i> 
+                        </span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right profile-dropdown ">
+                        <!-- item-->
+                        <div class="dropdown-header noti-title">
+                            <h6 class="text-overflow m-0">Welcome !</h6>
+                        </div>
+                        <!-- item-->
+                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                            <i class="fe-user"></i>
+                            <span>My Account</span>
+                        </a>
+                        <!-- item-->
+                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                            <i class="fe-settings"></i>
+                            <span>Settings</span>
+                        </a>
+                        <!-- item-->
+                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                            <i class="fe-lock"></i>
+                            <span>Lock Screen</span>
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <!-- item-->
+                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                            <i class="fe-log-out"></i>
+                            <span>Logout</span>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+            <!-- LOGO -->
+            <div class="logo-box">
+                <a href="index.html" class="logo text-center">
+                    <span class="logo-lg">
+                        <img src="images/logo-black.png" alt="" height="50">
+                    </span>
+                    <span class="logo-sm">
+                        <img src="images/logo-sm.png" alt="" height="50">
+                    </span>
+                </a>
+            </div>
+            <ul class="list-unstyled topnav-menu topnav-menu-left m-0">
+                <li>
+                    <button class="button-menu-mobile waves-effect waves-light">
+                        <i class="fe-menu"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <!-- ========== Left Sidebar Start ========== -->
+        <div class="left-side-menu">
+            <div class="slimscroll-menu">
+                <!--- Sidemenu -->
+                <div id="sidebar-menu">
+                    <ul class="metismenu" id="side-menu">
+                        <li>
+                            <a href="javascript: void(0);">
+                                <i class="dripicons-view-list"></i>
+                                <span>Pages</span>
+                                <span class="menu-arrow"></span>
+                            </a>
+                            <ul class="nav-second-level" aria-expanded="false">
+                                <li>
+                                    <a href="404.html">- 404</a>
+                                </li>
+                                <li>
+                                    <a href="404-alt.html">- 404 Alt </a>
+                                </li>
+                                <li>
+                                    <a href="500.html">- 500</a>
+                                </li>
+                                <li>
+                                    <a href="customers.html">- customers </a>
+                                </li>
+                                <li>
+                                    <a href="forget_password.html">- forget password</a>
+                                </li>
+                                <li>
+                                    <a href="login.html">- login </a>
+                                </li>
+                                <li>
+                                    <a href="logout.html">- logout</a>
+                                </li>
+                                <li>
+                                    <a href="register.html">- register </a>
+                                </li>
+                                <li>
+                                    <a href="table.html">- table</a>
+                                </li>
+                                <li>
+                                    <a href="form.html">- form </a>
+                                </li>
+                                <!-- <li>
+                                    <a href="view_agent_account.html">- View Agent Accounts</a>
+                                </li>
+                                <li>
+                                    <a href="add_new_agent.html">- Add New Agent </a>
+                                </li>
+                                <li>
+                                    <a href="view_agent_account.html">- View Agent Accounts</a>
+                                </li>
+                                <li>
+                                    <a href="add_new_agent.html">- Add New Agent </a>
+                                </li>
+                                <li>
+                                    <a href="view_agent_account.html">- View Agent Accounts</a>
+                                </li>
+                                <li>
+                                    <a href="add_new_agent.html">- Add New Agent </a>
+                                </li> -->
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="index.html">
+                                <i class="dripicons-home"></i>
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0);">
+                                <i class="mdi mdi-filter-outline"></i>
+                                <span>Leads</span>
+                                <span class="menu-arrow"></span>
+                            </a>
+                            <ul class="nav-second-level" aria-expanded="false">
+                                <li>
+                                    <a href="view_leads.html">- View Leads</a>
+                                </li>
+                                <li>
+                                    <a href="add_new_leads.html">- Add New Leads</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0);">
+                                <i class="dripicons-lightbulb"></i>
+                                <span>Opportunity</span>
+                                <span class="menu-arrow"></span>
+                            </a>
+                            <ul class="nav-second-level" aria-expanded="false">
+                                <li>
+                                    <a href="view_opportunity.html">- View Opportunity </a>
+                                </li>
+                                <li>
+                                    <a href="add_new_opportunity.html">- Add New Opportunity </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="loan_accepted">
+                                <i class="fa fa-donate"></i>
+                                <span>Loan Accepted</span>
+                                <span class="menu-arrow"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0);">
+                                <i class="dripicons-user"></i>
+                                <span>Clients</span>
+                                <span class="menu-arrow"></span>
+                            </a>
+                            <ul class="nav-second-level" aria-expanded="false">
+                                <li>
+                                    <a href="view_client.html">- View Client</a>
+                                </li>
+                                <li>
+                                    <a href="add_new_client.html">- Add New Client</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0);">
+                                <i class="dripicons-user"></i>
+                                <span>Sales Person Accounts</span>
+                                <span class="menu-arrow"></span>
+                            </a>
+                            <ul class="nav-second-level" aria-expanded="false">
+                                <li>
+                                    <a href="view_sales_person_account.html">- View Sales Person Accounts </a>
+                                </li>
+                                <li>
+                                    <a href="add_new_sales_person.html">- Add New Sales Person </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0);">
+                                <i class="dripicons-user"></i>
+                                <span>Sales Manager Accounts</span>
+                                <span class="menu-arrow"></span>
+                            </a>
+                            <ul class="nav-second-level" aria-expanded="false">
+                                <li>
+                                    <a href="view_sales_manager_account.html">- View Sales Manager Accounts</a>
+                                </li>
+                                <li>
+                                    <a href="add_new_sales_manager.html">- Add New Sales Manager</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0);">
+                                <i class="dripicons-user"></i>
+                                <span>Account Users</span>
+                                <span class="menu-arrow"></span>
+                            </a>
+                            <ul class="nav-second-level" aria-expanded="false">
+                                <li>
+                                    <a href="view_account_user.html">- View Account User</a>
+                                </li>
+                                <li>
+                                    <a href="add_new_account_user.html">- Add New Account User</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0);">
+                                <i class="dripicons-user"></i>
+                                <span>Agent Accounts</span>
+                                <span class="menu-arrow"></span>
+                            </a>
+                            <ul class="nav-second-level" aria-expanded="false">
+                                <li>
+                                    <a href="view_agent_account.html">- View Agent Accounts</a>
+                                </li>
+                                <li>
+                                    <a href="add_new_agent.html">- Add New Agent </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0);">
+                                <i class="dripicons-user"></i>
+                                <span>Settings</span>
+                                <span class="menu-arrow"></span>
+                            </a>
+                            <ul class="nav-second-level" aria-expanded="false">
+                                <li>
+                                    <a href="view_client.html">- Interest Rate</a>
+                                </li>
+                                <li>
+                                    <a href="add_new_client.html">- Master Package</a>
+                                </li>
+                                <li>
+                                    <a href="view_client.html">- App Banner</a>
+                                </li>
+                                <li>
+                                    <a href="add_new_client.html">- List Bank</a>
+                                </li>
+                                <li>
+                                    <a href="view_client.html">- Pay Status</a>
+                                </li>
+                                <li>
+                                    <a href="add_new_client.html">- Property Type</a>
+                                </li>
+                                <li>
+                                    <a href="view_client.html">- List Purpose</a>
+                                </li>
+                                <li>
+                                    <a href="add_new_client.html">- List Loan Status</a>
+                                </li>
+                                <li>
+                                    <a href="view_client.html">- Company</a>
+                                </li>
+                                <li>
+                                    <a href="add_new_client.html">- Division List</a>
+                                </li>
+                                <li>
+                                    <a href="view_client.html">- Add Main Division</a>
+                                </li>
+                                <li>
+                                    <a href="add_new_client.html">- Add Sub Division One</a>
+                                </li>
+                                <li>
+                                    <a href="view_client.html">- Add Sub Division Two</a>
+                                </li>
+                                <li>
+                                    <a href="add_new_client.html">- Rating & Ranking List</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0);">
+                                <i class="dripicons-user"></i>
+                                <span> App Module </span>
+                                <span class="menu-arrow"></span>
+                            </a>
+                            <ul class="nav-second-level" aria-expanded="false">
+                                <li>
+                                    <a href="view_client.html">- TDSR Default Value</a>
+                                </li>
+                                <li>
+                                    <a href="add_new_client.html">- MIC Default Value</a>
+                                </li>
+                                <li>
+                                    <a href="add_new_client.html">- Progressive Default Value</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="loan_accepted">
+                                <i class="fa fa-donate"></i>
+                                <span>Interest Rate Package</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0);">
+                                <i class="dripicons-user"></i>
+                                <span> Reports</span>
+                                <span class="menu-arrow"></span>
+                            </a>
+                            <ul class="nav-second-level" aria-expanded="false">
+                                <li>
+                                    <a href="view_client.html">- Sales Report</a>
+                                </li>
+                                <li>
+                                    <a href="add_new_client.html">- Financial Report</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- Start Page Content here -->
+        <!-- ============================================================== -->
+        <div class="content-page">
+            <div class="content">
+                <!-- Start Content-->
+                <div class="container-fluid">
+
+                    <!-- start page title -->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="page-title-box">
+                                <h4 class="page-title">Table</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end page title -->
+                </div>
+                <!-- container -->
+            </div>
+            <!-- content -->
+            <!-- Footer Start -->
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6">
+                            2019 &copy; Crm theme by <a href="#">Teqnico</a>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="text-md-right footer-links d-none d-sm-block">
+                                <a href="javascript:void(0);">About Us</a>
+                                <a href="javascript:void(0);">Help</a>
+                                <a href="javascript:void(0);">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Vendor js -->
+    <script src="js/vendor.min.js"></script>
+
+    <!-- Plugins js-->
+    <script src="libs/flatpickr/flatpickr.min.js"></script>
+    <script src="libs/jquery-knob/jquery.knob.min.js"></script>
+    <script src="libs/jquery-sparkline/jquery.sparkline.min.js"></script>
+    <script src="libs/flot-charts/jquery.flot.js"></script>
+    <script src="libs/flot-charts/jquery.flot.time.js"></script>
+    <script src="libs/flot-charts/jquery.flot.tooltip.min.js"></script>
+    <script src="libs/flot-charts/jquery.flot.selection.js"></script>
+    <script src="libs/flot-charts/jquery.flot.crosshair.js"></script>
+
+    <!-- Dashboar 1 init js-->
+    <script src="js/pages/dashboard-1.init.js"></script>
+
+    <!-- App js-->
+    <script src="js/app.min.js"></script>
+
+</body>
+
+</html>

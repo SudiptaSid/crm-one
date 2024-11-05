@@ -1,0 +1,383 @@
+/* ------------------------ Max Width 1366px ------------------------ */
+@media (max-width: 1366px) {
+
+}
+/* ------------------------ Max Width 1280px ------------------------ */
+@media (max-width: 1280px) {
+
+}
+/* ------------------------ Max Width 1080px ------------------------ */
+@media (max-width: 1080px) {
+#hero_banner .grid_items {
+	width:100%;
+}
+#hero_banner .grid_items .img_sec p {
+	font-size:20px;
+}
+#cs_partners ul {
+	margin-bottom:15px;
+    display: inline-block;
+    width:100%;
+    text-align: center;
+}
+#cs_partners ul li {
+    padding: 5px 15px;
+    width: 12.5%;
+    display: inline-block;
+}
+#cs_partners ul li a img {
+    width: 100%;
+}
+#free_loan .grid_right img {
+    width: 100%;
+}
+#free_loan .form_sec {
+	width:70%;
+}
+#searching_sec h2.heading {
+	margin-bottom:100px;
+}
+#searching_sec .img_sec {
+	bottom:120px;
+}
+#cs_how_we_work .grid_list h2 {
+	font-size:18px;
+}
+#cs_why_choose_us .gridi {
+	width:100%;
+}
+}
+/* ------------------------ Max Width 1024px ------------------------ */
+@media (max-width: 1024px) {
+
+}
+/* ------------------------ Max Width 966px ------------------------ */
+@media (max-width: 966px) {
+body {
+	font-size:14px;
+}
+#hero_banner .caption {
+    margin-bottom: 30px;
+}
+#hero_banner .caption h1 {
+	font-size:30px;
+}
+#hero_banner .cus_col {
+    padding: 0px 5px;
+}
+#hero_banner .grid_items .img_sec p {
+    font-size: 13px;
+}
+#hero_banner .grid_items .img_sec p span {
+    margin-left: 5px;
+    font-size: 13px;
+}
+#hero_banner .grid_items .details_sec ul li {
+    padding: 0px 10px;
+}
+#hero_banner .grid_items .details_sec ul li span:nth-child(2) {
+    font-size: 18px;
+}
+#cs_partners ul li {
+	padding:5px;
+}
+#cs_what_we_do .grid_left ul li {
+	font-size:16px;
+}
+#cs_what_we_do .grid_right .img_sec {
+	width:100%;
+}
+}
+/* ------------------------ Max Width 853px ------------------------ */
+@media (max-width: 853px) {
+
+}
+/* ------------------------ Max Width 800px ------------------------ */
+@media (max-width: 800px) {
+
+}
+/* ------------------------ Max Width 768px ------------------------ */
+@media (max-width: 768px) {
+
+}
+/* ------------------------ Max Width 736px ------------------------ */
+@media (max-width: 736px) {
+#hero_banner .row:last-child {
+	justify-content:center;
+}
+#hero_banner .cus_col {
+    padding: 0px 15px;
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 20px;
+}
+#cs_partners ul li {
+    width: 16.6666%;
+}
+#free_loan .form_sec {
+    width: 100%;
+}
+#searching_sec h2.heading {
+	font-size:24px;
+}
+#searching_sec .img_sec {
+	bottom: auto;
+    top: 60%;
+    left: auto;
+    right: 0;
+    transform: translateX(0%) translateY(-50%);
+}
+#searching_sec .grid_right {
+    padding-left: 0;
+}
+#cs_what_we_do .grid_right .img_sec {
+    width: 50%;
+    margin: auto;
+}
+#cs_how_we_work .grid_list {
+	margin-bottom:30px;
+}
+#cs_team .gridi {
+	margin-bottom:30px;
+}
+#cs_faq .gridi {
+	width:100%;
+}
+#cs_faq .gridi:last-child {
+    margin-bottom: 30px;
+}
+#cs_enquire .boxi h2 {
+    text-align: center;
+}
+#cs_enquire .boxi h2 a.btn_orng {
+    float: none;
+    display: block;
+    margin-top:15px;
+}
+}
+/* ------------------------ Max Width 732px ------------------------ */
+@media (max-width: 732px) {
+
+}
+/* ------------------------ Max Width 720px ------------------------ */
+@media (max-width: 720px) {
+
+}
+/* ------------------------ Max Width 690px ------------------------ */
+@media (max-width: 690px) {
+
+}
+/* ------------------------ Max Width 667px ------------------------ */
+@media (max-width: 667px) {
+
+}
+/* ------------------------ Max Width 640px ------------------------ */
+@media (max-width: 640px) {
+
+}
+/* ------------------------ Max Width 603px ------------------------ */
+@media (max-width: 603px) {
+
+}
+/* ------------------------ Max Width 600px ------------------------ */
+@media (max-width: 600px) {
+
+}
+/* ------------------------ Max Width 598px ------------------------ */
+@media (max-width: 598px) {
+
+}
+/* ------------------------ Max Width 568px ------------------------ */
+@media (max-width: 568px) {
+#hero_banner {
+    padding: 15px 0px 20px 0px;
+}
+#hero_banner .logo_sec {
+    margin-bottom: 20px;
+}
+#hero_banner .logo_sec a img {
+    height:40px;
+}
+#hero_banner .caption h1 {
+    font-size: 22px;
+    line-height: 32px;
+}
+#hero_banner .caption {
+    margin-bottom: 10px;
+}
+#cs_partners {
+    padding: 30px 0px;
+}
+#free_loan {
+    padding: 30px 0px;
+}
+#free_loan .grid_left h1 {
+    font-size:22px;
+}
+#free_loan .form_sec {
+    margin-top:30px;
+}
+#free_loan .form_sec h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.wizard>.content>.body {
+    padding: 20px 10px;
+}
+#searching_sec {
+    padding: 20px 0px;
+}
+#searching_sec h2.heading {
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+#cs_what_we_do {
+    padding:20px 0px;
+}
+#cs_what_we_do .grid_left h2.heading {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+#cs_what_we_do .grid_right .img_sec {
+    width: 70%;
+}
+#cs_how_we_work {
+    padding:20px 0px;
+}
+#cs_how_we_work h2.heading {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+#cs_why_choose_us {
+    padding: 20px 0px;
+}
+#cs_why_choose_us .heading {
+    margin-bottom:20px;
+}
+#cs_why_choose_us .heading .orng_h2 {
+    font-size: 22px;
+    margin-bottom:10px;
+}
+#cs_why_choose_us .heading .grey_h2 {
+    font-size: 22px;
+}
+#cs_why_choose_us .cus_col {
+    margin-bottom:20px;
+}
+#cs_why_choose_us .cus_col:last-child {
+    margin-bottom:0px;
+}
+#cs_team {
+    padding:20px 0px;
+}
+#cs_team h2.heading {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+#cs_team .gridi .details h3 {
+    font-size: 22px;
+    margin-bottom: 0;
+}
+#cs_faq {
+    padding: 20px 0px;
+}
+#cs_faq h2.heading {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+#cs_faq .gridi h3 {
+    font-size:16px;
+}
+#cs_enquire .boxi {
+    padding:10px;
+}
+#cs_enquire .boxi h2 {
+    font-size:22px;
+}
+.wizard>.actions ul {
+    padding: 0px 10px 10px 10px;
+    text-align: center;
+}
+.wizard>.actions ul li {
+    float: none;
+}
+.wizard>.actions>ul>li a {
+    padding:5px 10px;
+    font-size: 14px;
+}
+}
+/* ------------------------ Max Width 533px ------------------------ */
+@media (max-width: 533px) {
+#hero_banner .cus_col {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+#hero_banner .grid_items .details_sec {
+	min-height:100px;
+}
+#cs_partners ul li {
+    width: 25%;
+}
+#searching_sec .grid_left {
+    padding-right: 150px;
+}
+#searching_sec .grid_right {
+    padding-right: 150px;
+}
+#searching_sec ul li {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+#searching_sec .img_sec {
+	width:35%;
+}
+#cs_testimonial .owl-dots {
+    display: none;
+}
+}
+/* ------------------------ Max Width 480px ------------------------ */
+@media (max-width: 480px) {
+
+}
+/* ------------------------ Max Width 414px ------------------------ */
+@media (max-width: 414px) {
+#searching_sec .img_sec {
+	display: none;
+}
+#searching_sec .grid_left {
+	padding-right:0px;
+}
+#searching_sec .grid_right {
+	padding-right:0px;
+}
+.wizard .steps ul li a {
+    padding:0px 2px;
+    font-size: 12px;
+}
+.wizard .steps ul li a .number {
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+}
+}
+/* ------------------------ Max Width 412px ------------------------ */
+@media (max-width: 412px) {
+
+}
+/* ------------------------ Max Width 384px ------------------------ */
+@media (max-width: 384px) {
+
+}
+/* ------------------------ Max Width 375px ------------------------ */
+@media (max-width: 375px) {
+
+}
+/* ------------------------ Max Width 360px ------------------------ */
+@media (max-width: 360px) {
+
+}
+/* ------------------------ Max Width 320px ------------------------ */
+@media (max-width: 320px) {
+
+}

@@ -1,0 +1,186 @@
+/* ------------------------ Max Width 1366px ------------------------ */
+@media (max-width: 1366px) {
+
+}
+/* ------------------------ Max Width 1366px ------------------------ */
+@media screen and (max-width: 1280px) and (min-width: 768px) {
+#cs_banner h1 {
+    font-size: 36px;
+}
+#cs_banner p {
+    font-size:22px;
+}
+#cs_banner .btn_sec a.sd_btn {
+    margin: 0px 25px;
+    min-width: 250px;
+}
+#cs_banner .cs_marquee img {
+    margin:25px;
+}
+#cs_form h1 {
+    font-size: 36px;
+}
+#cs_hww .gridi h2 {
+    font-size: 20px;
+}
+#cs_rtgl h1 {
+    margin-top: 20px;
+    font-size: 26px;
+}
+}
+/* ------------------------ Max Width 767px ------------------------ */
+@media (max-width: 767px) {
+body {
+    font-size: 14px;
+}
+.sd_btn {
+	font-size:16px;
+    width:100%;
+    min-width:unset !important;
+}
+header {
+    padding:10px 0px;
+}
+header .logo_sec a {
+    height: 34px;
+}
+header .logo_sec a img {
+    margin: 0px 10px;
+    height: 100%;
+}
+#cs_banner .caption {
+    padding-top: 50px;
+}
+#cs_banner h1 {
+	font-size: 28px;
+	margin-bottom:20px;
+}
+#cs_banner p {
+	font-size:16px;
+}
+#cs_banner .btn_sec a.sd_btn {
+    margin: 10px 0px;
+    display: block;
+}
+#cs_banner .btn_sec a.sd_btn.btn_1r {
+	display: none;
+}
+#cs_banner .btn_sec a.sd_lnk {
+	display: block;
+}
+#cs_banner .img_sec {
+    position: relative;
+    min-height: 155px;
+    width: 100%;
+    max-width:100%;
+    overflow:hidden;
+}
+#cs_banner .img_sec img {
+    width: auto;
+    position: absolute;
+    left: -40%;
+    height: 100%;
+}
+#cs_banner .cs_marquee img {
+	margin:20px;
+}
+#cs_banner .cs_marquee {
+	padding:15px 0px;
+}
+#cs_service {
+    padding: 50px 0px;
+}
+#cs_service .d_view {
+	display: none;
+}
+#cs_service .m_view {
+    display: block;
+}
+#cs_service .cs_bx .bx_bdy ul li {
+	font-size: 14px;
+}
+#cs_service .cs_bx .bx_bdy ul li span {
+	font-size: 20px;
+}
+#cs_ad_banner {
+    min-height: 220px;
+}
+#cs_ad_banner .wht_bg {
+    height:60px;
+}
+#cs_ad_banner .img_sec {
+    position: absolute;
+    width: 200px;
+    left: -60px;
+}
+#cs_ad_banner h1 {
+	font-size: 20px;
+	padding-bottom:5px;
+	padding-top:20px;
+}
+#cs_ad_banner h1.d_view {
+	display: none;
+}
+#cs_ad_banner h1.m_view {
+	display: block;
+}
+#cs_ad_banner p {
+	display: block;
+}
+#cs_form {
+	padding:50px 0px;
+}
+#cs_form h1 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+#cs_form .frm_bx {
+	padding:20px;
+}
+#cs_form .frm_bx .cc_cont {
+	margin:15px 0px;
+}
+#cs_form .bg_btm {
+	display: none;
+}
+#cs_hww {
+	padding-top:50px;
+}
+#cs_hww .gridi h2 {
+    margin: 20px 0px 10px 0px;
+    font-size: 24px;
+    min-height: auto;
+}
+#cs_hww .gridi p {
+    font-size: 16px;
+}
+#cs_testimonial {
+    padding: 50px 0px;
+}
+#cs_testimonial .bg_top {
+	height:100px;
+}
+#cs_testimonial .test_bx {
+	padding:30px;
+}
+#cs_testimonial .usr_hdr h6 {
+	font-size:14px;
+}
+#cs_testimonial .usr_des p {
+	font-size:14px;
+}
+#cs_rtgl {
+	padding-bottom:0px;
+}
+#cs_rtgl h1 {
+    margin-top: 0;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+#cs_rtgl img {
+    width: 150px;
+    margin:auto;
+    margin-top: 50px;
+}
+}

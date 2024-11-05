@@ -1,0 +1,211 @@
+/* --------------------------------------------------------------------------------
+            Common
+-------------------------------------------------------------------------------- */
+body {
+    overflow-x: hidden;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight:400;
+    color:#333;
+    background-color:#f7f9fd;
+}
+a, a:focus, a:hover {
+    transition: .6s;
+    outline: 0;
+    text-decoration: none;
+}
+img {}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Rubik', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0 0 15px 0px;
+}
+p {}
+ol, ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style-type: none;
+}
+button:focus,
+button:active {
+    outline:none;
+    box-shadow:none;
+}
+/* ---------------- Divider ---------------- */
+.bx_dvdr {
+    border-bottom: 1px solid #aeaeae;
+    width: 100%;
+    display: block;
+    margin: 15px 0px;
+}
+/* --------------------------------------------------------------------------------
+            Bootstrap Edit
+-------------------------------------------------------------------------------- */
+@media (min-width: 1600px) {
+.container {
+    max-width: 1580px;
+}
+}
+/* --------------------------------------------------------------------------------
+            Custom Checkbox
+-------------------------------------------------------------------------------- */
+.cc_cont {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    user-select: none;
+    color: #333;
+}
+.cc_cont input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.cc_cont .checkmark {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: #e1e1e1;
+}
+.cc_cont .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.cc_cont input:checked ~ .checkmark:after {
+    display: block;
+}
+.cc_cont .checkmark:after {
+    left: 9px;
+    top: -7px;
+    width: 6px;
+    height: 18px;
+    border: solid #333;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+/* --------------------------------------------------------------------------------
+            Custom Radio Button
+-------------------------------------------------------------------------------- */
+.cr_cont {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    user-select: none;
+    color: #333;
+}
+.cr_cont input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.cr_cont .checkmark {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    border: 1px solid #333;
+}
+.cr_cont .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.cr_cont input:checked ~ .checkmark:after {
+    display: block;
+}
+.cr_cont .checkmark:after {
+    top: 3px;
+    left: 3px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #fff;
+}
+/* --------------------------------------------------------------------------------
+            Button & Form Widget
+-------------------------------------------------------------------------------- */
+.sd_btn {
+    font-size: 18px;
+    padding: 8px 30px;
+    display: inline-block;
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 5px;
+    color: #333;
+    min-width: 200px;
+    cursor:pointer;
+    text-align: center;
+}
+.sd_btn:hover,
+.sd_btn:focus {
+    background-color:#333;
+    color:#fff;
+    border-color:#333;
+}
+.btn_1 {
+    background-color:#091d73;
+    color:#fff;
+    border-color:#091d73;
+}
+.btn_1:hover,
+.btn_1:focus {
+    background-color:#fff;
+    color:#091d73;
+    border-color:#091d73;
+}
+.btn_1r {
+    background-color:#fff;
+    color:#091d73;
+    border-color:#091d73;
+}
+.btn_1r:hover,
+.btn_1r:focus {
+    background-color:#091d73;
+    color:#fff;
+    border-color:#091d73;
+}
+.sd_frm_ctrl {
+    width: 100%;
+    padding: 8px;
+    color: #333;
+    border: none;
+}
+.sd_frm_ctrl:focus {
+    outline:none;
+}
+.sd_frm_ctrl::placeholder {
+    color:#d8d8d8;
+}
+/* --------------------------------------------------------------------------------
+            Header
+-------------------------------------------------------------------------------- */
+header {
+    border-bottom:2px solid #e2f1ff;
+    text-align: center;
+    padding:20px 0px;
+}
+header .logo_sec {}
+header .logo_sec a {
+    display: inline-block;
+    height:50px;
+}
+header .logo_sec a img {
+    margin:0px 20px;
+    height: 100%;
+}
+header .logo_sec img.cs_close {
+
+}

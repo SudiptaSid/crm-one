@@ -1,0 +1,508 @@
+/* --------------------------------------------------------------------------------
+                                Hero Banner
+-------------------------------------------------------------------------------- */
+#hero_banner {
+    padding:35px 0px 40px 0px;
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+#hero_banner .logo_sec {
+    margin-bottom:40px;
+}
+#hero_banner .logo_sec a {
+    display: inline-block;
+}
+#hero_banner .logo_sec a img {
+    width:auto;
+    height:62px;
+}
+#hero_banner .caption {
+    text-align: center;
+    margin-bottom:80px;
+}
+#hero_banner .caption h1 {
+    margin-bottom:0px;
+    font-family: 'proxima_nova_rgregular';
+    font-size:40px;
+    line-height: 47px;
+    letter-spacing:1px;
+    color:#fff;
+    text-transform: uppercase;
+}
+#hero_banner .cus_col {}
+#hero_banner .grid_items {
+    text-align: center;
+}
+#hero_banner .cus_col:nth-child(1) .grid_items {
+    
+}
+#hero_banner .cus_col:nth-child(2) .grid_items {
+    margin:auto;
+}
+#hero_banner .cus_col:nth-child(3) .grid_items {
+    margin-left: auto;
+}
+#hero_banner .grid_items .img_sec {
+    margin-bottom:15px;
+}
+#hero_banner .grid_items .img_sec img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+#hero_banner .grid_items .img_sec p {
+    color: #292929;
+    margin: 0px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#hero_banner .grid_items .img_sec p span {
+    margin-left:15px;
+    font-size:20px;
+    text-transform: capitalize;
+}
+#hero_banner .grid_items .details_sec {
+    background-color: #fff;
+    color: #292929;
+    min-height: 180px;
+    border-radius: 3px;
+}
+#hero_banner .grid_items .details_sec ul {}
+#hero_banner .grid_items .details_sec ul li {
+    border-bottom: 1px solid #292929;
+    display: table;
+    width: 100%;
+    padding:0px 20px;
+}
+#hero_banner .grid_items .details_sec ul li:last-child {
+    border-bottom: none;
+}
+#hero_banner .grid_items .details_sec ul li span {
+    display: table-cell;
+    vertical-align:middle;
+    width: 33%;
+    padding:5px 0px;
+}
+#hero_banner .grid_items .details_sec ul li span:nth-child(1) {
+    font-family: 'proxima_nova_rgbold';
+    text-align: left;
+}
+#hero_banner .grid_items .details_sec ul li span:nth-child(2) {
+    font-size: 28px;
+    font-family: 'proxima_nova_rgbold';
+}
+#hero_banner .grid_items .details_sec ul li span:nth-child(2) span {
+    font-size:18px;
+    display: inline-block;
+    width:auto;
+}
+#hero_banner .grid_items .details_sec ul li span:nth-child(3) {
+    text-align: right;
+    font-family: 'proxima_nova_rgregular';
+}
+.please_update {
+    margin-bottom:0px;
+    margin-top:15px;
+    text-align: right;
+    color:#292929;
+    font-size:18px;
+}
+/* --------------------------------------------------------------------------------
+                                Partners
+-------------------------------------------------------------------------------- */
+#cs_partners {
+    padding:60px 0px;
+}
+#cs_partners ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom:20px;
+}
+#cs_partners ul:last-child {
+    margin-bottom:0px;
+}
+#cs_partners ul li {
+    padding: 5px 20px;
+}
+#cs_partners ul li a {
+    display: block;
+}
+#cs_partners ul li a img {
+    width: auto;
+}
+/* --------------------------------------------------------------------------------
+                                Free Loan
+-------------------------------------------------------------------------------- */
+#free_loan {
+    padding:60px 0px;
+    background-color:#f7f7f7;
+}
+#free_loan .grid_left {
+
+}
+#free_loan .grid_left h1 {
+    color: #0c6996;
+    font-size: 28px;
+    font-family: 'proxima_novasemibold';
+}
+#free_loan .grid_left p {
+    color:#516378;
+    font-size:20px;
+    line-height:1.4;
+    margin-bottom:0px;
+}
+#free_loan .grid_right {
+    text-align: right;
+}
+#free_loan .grid_right img {
+    width:auto;
+}/* Form */
+#free_loan .form_sec {
+    width: 50%;
+    margin: auto;
+    margin-top: 80px;
+}
+#free_loan .form_sec h2 {
+    font-family: 'proxima_novasemibold';
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 40px;
+    text-align: center;
+}
+#free_loan .form_sec form {}
+#free_loan .form_sec .label_s {
+    font-family: 'proxima_novasemibold';
+    color:#fff;
+    margin-bottom:10px;
+}
+/* --------------------------------------------------------------------------------
+                                Searching Section
+-------------------------------------------------------------------------------- */
+#searching_sec {
+    padding:80px 0px 100px 0px;
+    position: relative;
+}
+#searching_sec h2.heading {
+    color:#516378;
+    font-size: 28px;
+    line-height: 37px;
+    font-family: 'proxima_novasemibold';
+    text-align: center;
+    margin-bottom:150px;
+}
+#searching_sec .img_sec {
+    position: absolute;
+    bottom:80px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#searching_sec .img_sec img {
+
+}
+#searching_sec .grid_left {
+    padding-right:100px;
+}
+#searching_sec .grid_right {
+    padding-left:100px;
+}
+#searching_sec ul {
+
+}
+#searching_sec ul li {
+    color: #303b48;
+    font-size: 18px;
+    margin-bottom:20px;
+    padding-left:30px;
+    position: relative;
+}
+#searching_sec ul li:before {
+    content:'';
+    background-image:url(../images/orng_check.png);
+    width: 30px;
+    height: 30px;
+    background-position: center center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+}
+/* --------------------------------------------------------------------------------
+                                What We Do
+-------------------------------------------------------------------------------- */
+#cs_what_we_do {
+    padding:80px 0px;
+    background-color:#f7f7f7;
+}
+#cs_what_we_do .grid_left {
+
+}
+#cs_what_we_do .grid_left h2.heading {
+    color:#516378;
+    font-size: 28px;
+    font-family: 'proxima_novasemibold';
+    margin-bottom:40px;
+}
+#cs_what_we_do .grid_left ul {
+
+}
+#cs_what_we_do .grid_left ul li {
+    color: #303b48;
+    font-size: 18px;
+    margin-bottom:20px;
+    font-family: 'proxima_novasemibold';
+    padding-left:30px;
+    position: relative;
+}
+#cs_what_we_do .grid_left ul li:before {
+    content:'';
+    background-image:url(../images/orng_check2.png);
+    width: 30px;
+    height: 30px;
+    background-position: center center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+}
+#cs_what_we_do .grid_right {
+
+}
+#cs_what_we_do .grid_right .img_sec {
+    width:80%;
+    margin-left: auto;
+}
+#cs_what_we_do .grid_right .img_sec img {
+
+}
+/* --------------------------------------------------------------------------------
+                                How We Work
+-------------------------------------------------------------------------------- */
+#cs_how_we_work {
+    padding:80px 0px;
+}
+#cs_how_we_work h2.heading {
+    color:#516378;
+    font-size: 28px;
+    font-family: 'proxima_novasemibold';
+    margin-bottom:80px;
+    text-align: center;
+}
+#cs_how_we_work .grid_list {
+    
+}
+#cs_how_we_work .grid_list h2 {
+    color:#21405f;
+    font-size:20px;
+    font-family: 'proxima_novasemibold';
+    margin-bottom:30px;
+}
+#cs_how_we_work .grid_list .boxi {
+    box-shadow: 1px 1px 4px 1px rgba(153, 153, 153, 0.56);
+}
+#cs_how_we_work .grid_list .boxi img {
+    
+}
+#cs_how_we_work .grid_list .boxi .details {
+    padding:20px 15px;
+}
+#cs_how_we_work .grid_list .boxi .details p {
+    margin-bottom:0px;
+    color:#303b48;
+}
+#cs_how_we_work .grid_list .boxi .details p strong {
+    font-family: 'proxima_nova_rgbold';
+}
+/* --------------------------------------------------------------------------------
+                                Why Choose Us
+-------------------------------------------------------------------------------- */
+#cs_why_choose_us {
+    padding:80px 0px;
+    background-color:#f7f7f7;
+}
+#cs_why_choose_us .heading {
+    font-family: 'proxima_novasemibold';
+    margin-bottom:80px;
+    text-align: center;
+}
+#cs_why_choose_us .heading .orng_h2 {
+    color:#ff9b51;
+    font-size: 28px;
+    margin-bottom:20px;
+}
+#cs_why_choose_us .heading .grey_h2 {
+    color:#516378;
+    font-size: 28px;
+}
+#cs_why_choose_us .gridi {
+    width: 70%;
+}
+#cs_why_choose_us .cus_col:nth-child(1) .gridi {
+    
+}
+#cs_why_choose_us .cus_col:nth-child(2) .gridi {
+    margin:auto;
+}
+#cs_why_choose_us .cus_col:nth-child(3) .gridi {
+    margin-left: auto;
+}
+#cs_why_choose_us .gridi .icon_sec {
+    display: block;
+    text-align: center;
+    margin-bottom:20px;
+}
+#cs_why_choose_us .gridi .icon_sec img {
+    width: auto;
+}
+#cs_why_choose_us .gridi .details {
+    
+}
+#cs_why_choose_us .gridi .details h3 {
+    color:#21405f;
+    font-size:20px;
+    font-family: 'proxima_novasemibold';
+    margin-bottom:20px;
+}
+#cs_why_choose_us .gridi .details p {
+    margin-bottom:0px;
+    color:#303b48;
+}
+/* --------------------------------------------------------------------------------
+                                Our Team
+-------------------------------------------------------------------------------- */
+#cs_team {
+    padding:80px 0px;
+}
+#cs_team h2.heading {
+    color:#516378;
+    font-size: 28px;
+    font-family: 'proxima_novasemibold';
+    margin-bottom:80px;
+    text-align: center;
+}
+#cs_team .gridi {
+    padding:25px;
+    background-color:#f3f3f3;
+}
+#cs_team .gridi .details {
+    margin-top:20px;
+}
+#cs_team .gridi .details h3 {
+    color:#373737;
+    font-family: 'proxima_novasemibold';
+    font-size:26px;
+    margin-bottom:5px;
+}
+#cs_team .gridi .details a {
+    display: block;
+    color:#2da1f7;
+    font-family: 'proxima_novasemibold';
+    font-size:20px;
+}
+#cs_team .gridi .details p {
+    margin-bottom:0px;
+    font-size:18px;
+    line-height:1.5;
+}
+/* --------------------------------------------------------------------------------
+                                Testimonial
+-------------------------------------------------------------------------------- */
+#cs_testimonial {
+    padding:80px 0px;
+}
+#cs_testimonial h2.heading {
+    color:#516378;
+    font-size: 28px;
+    font-family: 'proxima_novasemibold';
+    margin-bottom:80px;
+    text-align: center;
+    text-transform: capitalize;
+}
+#cs_testimonial #testi_slider img {
+    border:1px solid #516378;
+}
+#cs_testimonial .owl-dots {
+    margin-top:20px;
+}
+#cs_testimonial .owl-dots .owl-dot {
+    
+}
+#cs_testimonial .owl-dots .owl-dot span {
+    width:15px;
+    height:15px;
+    border:1px solid #516378;
+    background-color:transparent;
+}
+#cs_testimonial .owl-dots .owl-dot.active span {
+    background-color:#516378;
+}
+/* --------------------------------------------------------------------------------
+                                Faq
+-------------------------------------------------------------------------------- */
+#cs_faq {
+    padding:80px 0px;
+    background-color:#f7f7f7;
+}
+#cs_faq h2.heading {
+    color:#516378;
+    font-size: 28px;
+    font-family: 'proxima_novasemibold';
+    margin-bottom:50px;
+    text-align: center;
+}
+#cs_faq .gridi {
+    margin-bottom:30px;
+    width:90%;
+}
+#cs_faq .cuc_col:nth-child(1) .gridi {
+    
+}
+#cs_faq .cuc_col:nth-child(2) .gridi {
+    margin-left: auto;
+}
+#cs_faq .gridi:last-child {
+    margin-bottom:0px;
+}
+#cs_faq .gridi h3 {
+    font-size:20px;
+    line-height:25px;
+    color:#303b48;
+    margin-bottom:10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+#cs_faq .gridi p {
+    margin-bottom:0px;
+    color:#303b48;
+    font-size:15px;
+    line-height:21px;
+    font-family: 'Open Sans', sans-serif;
+}
+/* --------------------------------------------------------------------------------
+                                Enquire
+-------------------------------------------------------------------------------- */
+#cs_enquire {
+    padding:50px 0px;
+}
+#cs_enquire .boxi {
+    padding:20px 40px;
+    border:2px solid #ff9b51;
+    border-radius:3px;
+}
+#cs_enquire .boxi h2 {
+    margin-bottom:0px;
+    color:#516378;
+    font-size:28px;
+    line-height:39px;
+    font-family: 'proxima_novasemibold';
+}
+#cs_enquire .boxi h2 a.btn_orng {
+    float: right;
+    background-color: #ff9b51;
+    color: #fff;
+    border-radius: 5px;
+}
+#cs_enquire .boxi h2 a.btn_orng:hover {
+    
+}

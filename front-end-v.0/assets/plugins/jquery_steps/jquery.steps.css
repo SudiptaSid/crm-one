@@ -1,0 +1,101 @@
+﻿.wizard {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+/* Steps */
+.wizard .steps {
+    text-align: center;
+    margin-bottom:30px;
+    position: relative;
+}
+.wizard .steps ul {
+    list-style: none !important;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.wizard .steps ul>li {
+    display: inline-block;
+}
+.wizard .steps ul li a {
+    font-family: 'proxima_novasemibold';
+    background: transparent;
+    color: #292929;
+    display: block;
+    margin: 0px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0px;
+    line-height: inherit;
+    height: auto;
+}
+.wizard .steps ul li a .number {
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #d7d7d7;
+    display: inline-block;
+    color: #292929;
+    border-radius: 50%;
+}
+.wizard .steps ul li.current a .number {
+    background-color: #39b54a;
+    border: 1px solid #197b30;
+    color:#fff;
+}
+.wizard>.steps .current-info, 
+.tabcontrol>.steps .current-info {
+   display: none;
+}
+/* Content */
+.wizard>.content {
+    background: #0c6996;
+    display: block;
+    min-height: 700px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.wizard>.content>.body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding:40px;
+}
+.wizard>.content>.title, 
+.tabcontrol>.content>.title {
+    position: absolute;
+    left: -999em;
+}
+/* Actions */
+.wizard>.actions {
+    position: relative;
+    display: block;
+    width: 100%;
+    background: #0c6996;
+}
+.wizard>.actions ul {
+    padding: 0px 40px 30px 40px;
+    display: block;
+    float: left;
+    width: 100%;
+}
+.wizard>.actions>ul>li {
+    display: inline-block;
+    float: left;
+    margin-right:10px;
+}
+.wizard>.actions>ul>li.disabled {
+    display: none;
+}
+.wizard>.actions>ul>li a {
+    background-color: #ff9b51;
+    color: #fff;
+    padding: 5px 30px;
+    display: block;
+    border-radius: 5px;
+    font-size: 18px;
+    text-transform: capitalize;
+}

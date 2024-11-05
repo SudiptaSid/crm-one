@@ -1,0 +1,187 @@
+/* --------------------------------------------------------------------------------
+                                Common
+-------------------------------------------------------------------------------- */
+::selection {
+    background-color:#002d3b;
+    color:#fff;
+}
+::-moz-selection {
+    background-color:#002d3b;
+    color:#fff;
+}
+body {
+    overflow-x: hidden;
+    font-family: 'proxima_nova_rgregular';
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight:400;
+    color:#333;
+}
+a, a:focus, a:hover {
+    transition: .6s;
+    outline: 0;
+    text-decoration: none;
+}
+img {
+    width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight:400;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0 0 15px 0px;
+}
+p {}
+ol, ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style-type: none;
+}
+button:focus,
+button:active {
+    outline:none;
+    box-shadow:none;
+}
+/* --------------------------------------------------------------------------------
+                                Bootstrap Edit
+-------------------------------------------------------------------------------- */
+@media (min-width: 1200px) {
+.container {
+    max-width: 1310px;
+}
+}
+.btn {
+    font-size: 18px;
+    line-height: 1.3;
+    text-transform: capitalize;
+    letter-spacing:3px;
+    padding: 10px 15px;
+    border-radius:0;
+}
+.btn,
+.btn:focus,
+.btn:active,
+.btn:hover {
+    outline:none;
+    box-shadow:none;
+    border:none;
+    transition:0.6s;
+}
+.btn_1 {
+    background-color:#009ae1;
+    color:#fff;
+}
+.btn_1:focus,
+.btn_1:active,
+.btn_1:hover {
+    background-color:#002d3b;
+    color:#fff;
+}
+.btn_2 {
+    background-color:#ff5c5c;
+    color:#fff;
+}
+.btn_2:focus,
+.btn_2:active,
+.btn_2:hover {
+    background-color:#009ae1;
+    color:#fff;
+}
+.form-control {
+    padding: 10px 15px;
+    line-height: 1.3;
+    border-radius: 0px;
+    color: #333;
+    font-size: 14px;
+}
+.form-control:focus {
+    box-shadow:none;
+    border-color:#009ae1;
+}
+/* --------------------------------------------------------------------------------
+                                Custom Checkbox
+-------------------------------------------------------------------------------- */
+.cc_cont {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    user-select: none;
+    color: #fff;
+}
+.cc_cont input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.cc_cont .checkmark {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    border: 1px solid #fff;
+    border-radius:3px;
+}
+.cc_cont .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.cc_cont input:checked ~ .checkmark:after {
+    display: block;
+}
+.cc_cont .checkmark:after {
+    left: 9px;
+    top: -7px;
+    width: 6px;
+    height: 18px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+/* --------------------------------------------------------------------------------
+                                Custom Radio Button
+-------------------------------------------------------------------------------- */
+.cr_cont {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    user-select: none;
+    color: #fff;
+}
+.cr_cont input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.cr_cont .checkmark {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+.cr_cont .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.cr_cont input:checked ~ .checkmark:after {
+    display: block;
+}
+.cr_cont .checkmark:after {
+    top: 3px;
+    left: 3px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #fff;
+}
